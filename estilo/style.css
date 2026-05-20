@@ -104,7 +104,7 @@ p {
 .btn-luxury { color: var(--color-luxury); }
 
 @media (min-width: 768px) {
-  .body {
+  body {
     display: flex;
     flex-flow: row nowrap;
     max-width: 900px;
