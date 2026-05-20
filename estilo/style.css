@@ -89,6 +89,7 @@ p {
   padding: 12px 30px;
   border-radius: 25px;
   font-family: var(--font-family-lexend);
+  text-align: center;
   font-size: 15px;
   text-decoration: none;
   border: 2px solid transparent;
@@ -110,7 +111,7 @@ p {
     max-width: 900px;
   }
   .card {
-    width: 33.3%;
+    flex: 1;
   }
   .card1 {
     border-radius: 10px 0 0 10px;
