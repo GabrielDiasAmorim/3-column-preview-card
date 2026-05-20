@@ -79,3 +79,25 @@ p {
   line-height: 1.6;
   margin-bottom: 50px
 }
+
+.btn {
+  display: inline-block;
+  background-color: var(--color-fundo);
+  padding: 12px 30px;
+  border-radius: 25px;
+  font-family: var(--font-family-lexend);
+  font-size: 15px;
+  text-decoration: none;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: transparent;
+  border-color: var(--color-fundo);
+  color: var(--color-fundo) !important;
+}
+
+.btn-sends { color: var(--color-sedans); }
+.btn-suvs { color: var(--color-suvs); }
+.btn-luxury { color: var(--color-luxury); }
