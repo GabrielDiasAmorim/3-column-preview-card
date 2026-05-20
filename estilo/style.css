@@ -102,3 +102,22 @@ p {
 .btn-sedans { color: var(--color-sedans); }
 .btn-suvs { color: var(--color-suvs); }
 .btn-luxury { color: var(--color-luxury); }
+
+@media (min-width: 768px) {
+  .container {
+    display: flex;
+    max-width: 900px;
+  }
+
+  .card {
+    width: 33.3%;
+  }
+
+  .card1 {
+    border-radius: 10px 0 0 10px;
+  }
+
+  .card3 {
+    border-radius: 0 10px 10px 0;
+  }
+}
