@@ -105,9 +105,11 @@ p {
 
 @media (min-width: 768px) {
   body {
-    display: flex;
-    flex-flow: row nowrap;
-    max-width: 900px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    /*max-width: 900px;*/
   }
 
   .card {
