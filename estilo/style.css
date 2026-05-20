@@ -69,6 +69,7 @@ h1 {
   font-size: 40px;
   margin-top: 35px;
   margin-bottom: 25px;
+  text-transform: uppercase;
 }
 
 p {
