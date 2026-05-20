@@ -106,6 +106,7 @@ p {
 @media (min-width: 768px) {
   .container {
     display: flex;
+    flex-direction: row;
     max-width: 900px;
   }
 
