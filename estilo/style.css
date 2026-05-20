@@ -99,6 +99,6 @@ p {
   color: var(--color-fundo) !important;
 }
 
-.btn-seadns { color: var(--color-sedans); }
+.btn-sedans { color: var(--color-sedans); }
 .btn-suvs { color: var(--color-suvs); }
 .btn-luxury { color: var(--color-luxury); }
