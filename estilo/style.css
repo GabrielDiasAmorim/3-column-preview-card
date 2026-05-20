@@ -43,7 +43,7 @@ body {
   padding: 24px;
 }
 
-main {
+.card {
   max-width: 500px;
   width: 100%;
   padding: 48px;
