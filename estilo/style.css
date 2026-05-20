@@ -102,14 +102,14 @@ p {
 .btn-sedans { color: var(--color-sedans); }
 .btn-suvs { color: var(--color-suvs); }
 .btn-luxury { color: var(--color-luxury); }
-/*
+
 @media (min-width: 768px) {
-  body {
+  main {
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 40px;
-    /*max-width: 900px;
+    max-width: 900px;
   }
 
   .card {
@@ -123,8 +123,8 @@ p {
   .card3 {
     border-radius: 0 10px 10px 0;
   }
-}*/
-
+}
+/*
 @media (min-width: 768px) {
   body {
     flex-direction: row;
@@ -135,9 +135,8 @@ p {
   }
 
   .card {
-    /* Força uma largura horizontal fixa e idêntica para os 3 cards */
     width: 300px; 
-    max-width: none; /* Reseta o comportamento restrito do mobile */
+    max-width: none;
   }
 
   .card1 {
@@ -145,10 +144,11 @@ p {
   }
 
   .card2 {
-    border-radius: 0; /* Garante que o do meio resete as bordas do mobile */
+    border-radius: 0;
   }
 
   .card3 {
     border-radius: 0 10px 10px 0;
   }
 }
+*/
