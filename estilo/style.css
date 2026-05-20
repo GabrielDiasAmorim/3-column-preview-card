@@ -98,6 +98,6 @@ p {
   color: var(--color-fundo) !important;
 }
 
-.btn-sends { color: var(--color-sedans); }
+.btn-seadns { color: var(--color-sedans); }
 .btn-suvs { color: var(--color-suvs); }
 .btn-luxury { color: var(--color-luxury); }
