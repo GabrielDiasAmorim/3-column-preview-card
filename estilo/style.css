@@ -104,3 +104,12 @@ p {
 .btn-sedans { color: var(--color-sedans); }
 .btn-suvs { color: var(--color-suvs); }
 .btn-luxury { color: var(--color-luxury); }
+@media  (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    max-width: 900px;
+  }
+  .card {
+    width: 33.3%;
+  }
+}
