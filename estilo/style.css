@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+  /* Layout */
+  --width-mobile: 375px;
+  --width-desktop: 1440px;
+
+  /* Cores Primárias */
+  --color-sedans: hsl(31, 77%, 52%);
+  --color-suvs: hsl(184, 100%, 22%);
+  --color-luxury: hsl(179, 100%, 13%);
+
+  /* Cores Neutras */
+  /*parágrafo & hover*/
+  --color-text: hsla(0, 0%, 100%, 0.75);
+  /*fundo & Butão*/
+  --color-fundo: hsl(0, 0%, 95%);
+
+  /* Tipografia */
+  --font-size-body: 15px;
+  --font-weight-normal: 400;
+  
+  --font-family-lexend: 'Lexend Deca', sans-serif;
+  --font-family-big-shoulders: 'Big Shoulders Display', sans-serif;
+}
+body {
+  background-color: var(--color-fundo);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+.card1 {
+  background-color: var(--color-sedans);
+}
+
+.card2 {
+  background-color: var(--color-suvs);
+}
+
+.card3 {
+  background-color: var(--color-luxury);
+}
+
+h1 {
+  color: var(--color-fundo);
+}
+p {
+  color: var(--color-text);
+}
