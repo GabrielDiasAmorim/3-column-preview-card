@@ -44,9 +44,10 @@ body {
 
 main {
   max-width: var(--width-mobile);
-  width: 100px;
+  width: 100%;
   padding: 48px;
 }
+
 .card1 {
   background-color: var(--color-sedans);
   border-radius: 8px 8px 0 0;
@@ -64,6 +65,7 @@ main {
 h1 {
   color: var(--color-fundo);
 }
+
 p {
   color: var(--color-text);
 }
