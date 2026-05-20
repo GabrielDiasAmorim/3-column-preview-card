@@ -37,12 +37,14 @@ body {
   width: 100%;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 24px;
 }
-
+.container {
+  display: flex;
+  flex-direction: column;
+}
 .card {
   max-width: 500px;
   width: 100%;
